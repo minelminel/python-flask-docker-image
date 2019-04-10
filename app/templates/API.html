@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<hr>
+<!-- REQUEST string -->
+<div class="input-group mb-3">
+  <input type="text" class="form-control" id="btnAPI" placeholder="request: {{ my_status }}" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <a href="#" class="btn btn-info" role="button">Submit</a>
+  </div>
+</div>
+
+<div class="text pull-right">
+  Status: {{ Status }}
+</div>
+
+<!-- Text Box RESPONSE -->
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control" placeholder="response: {{ my_text }}" id="exampleFormControlTextareaR" rows="16"></textarea>
+  </div>
+{{ Response }}
+
+{% endblock %}
