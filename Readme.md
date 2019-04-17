@@ -1,14 +1,23 @@
-## Git clone the application
+# Docker / Flask boilerplate
+### simple project template for easy sandboxing
 
-## Create a virtual environment inside the application
 
-```python
+## Source the application
+```
 
-    virtualenv -p /usr/bin/python3 venv    
-
-    source venv/bin/activate
+git clone https://github.com/minelminel/python-flask-docker-image.git
 
 ```
+
+# Quick Setup (assuming you have Docker available locally)
+```bash
+
+bash deploy.sh
+
+```
+
+
+# Manual Setup
 
 ## Install Python modules
 
@@ -23,7 +32,7 @@
 
 ```python
 
-    python app.py
+    python3 app.py
 
 ```
 
@@ -32,7 +41,7 @@
 
 ```python
 
-        http://localhost:5000
+    http://localhost:5000
 
 ```
 
