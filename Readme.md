@@ -1,5 +1,5 @@
 # :whale: :potable_water: Docker / Flask boilerplate
-### simple project template for easy sandboxing
+### simple project template for easy prototyping
 
 
 ## Source the application
