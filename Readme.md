@@ -3,7 +3,7 @@
 
 
 ## Source the application
-```
+```bash
 
 git clone https://github.com/minelminel/python-flask-docker-image.git
 
