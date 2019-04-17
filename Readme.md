@@ -49,13 +49,13 @@ bash deploy.sh
 
 ```bash
 
-        // List all running container
+        // List running containers
         docker ps
 
         // list all containers
         docker ps -a
 
-        // list all docker images
+        // list docker images
         docker images
 
 
