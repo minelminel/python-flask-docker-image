@@ -9,7 +9,7 @@ git clone https://github.com/minelminel/python-flask-docker-image.git
 
 ```
 
-# Quick Setup (assuming you have Docker available locally)
+# Quick Setup (assuming you have Docker)
 ```bash
 
 bash deploy.sh
