@@ -1,4 +1,4 @@
-# Docker / Flask boilerplate
+# :whale: :potable_water: Docker / Flask boilerplate
 ### simple project template for easy sandboxing
 
 
